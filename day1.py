@@ -9,7 +9,7 @@ with open("input.txt", "r") as input:
         INPUT.append(int(ele.strip("\n")))
 
 for ele in range(len(INPUT)):
-    print(ele)
+    # print(ele)
     if ele - (len(INPUT)-1) == 0:
         break
     else:
