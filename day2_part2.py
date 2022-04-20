@@ -28,11 +28,9 @@ for ele in range(len(sumOfMoves)):
         sumDepths = sumDepths + (sumAims * sumOfMoves[ele][1])
 
     elif sumOfMoves[ele][0] == 'up':
-        # sumUps = sumOfMoves[ele][1] + sumUps
         sumAims = sumAims - sumOfMoves[ele][1]
 
     elif sumOfMoves[ele][0] == 'down':
-        # sumDowns = sumOfMoves[ele][1] + sumDowns
         sumAims = sumAims + sumOfMoves[ele][1]
 
 
